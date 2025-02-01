@@ -1,0 +1,101 @@
+/* Reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    color: #333;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Poem Section */
+#poem {
+    margin: 40px 0;
+    font-size: 1.5rem;
+    color: #ff6b81;
+}
+
+#poem h1 {
+    font-size: 2.5rem;
+    color: #ff4081;
+}
+
+/* Valentine Question Section */
+#valentine-question {
+    margin: 40px 0;
+}
+
+#valentine-question h2 {
+    font-size: 2rem;
+    color: #ff4081;
+    margin: 20px;
+}
+
+#valentine-question img {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+#valentine-question button {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#valentine-question button:hover {
+    background-color: #ff4081;
+}
+
+/* Cute Threats Section */
+#cute-threats {
+    margin-top: 40px;
+}
+
+#cute-threats p {
+    font-size: 1.8rem;
+    color: #d32f2f;
+}
+
+#cute-threats img {
+    max-width: 150px;
+    margin-top: 20px;
+}
+
+#retry-btn {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#retry-btn:hover {
+    background-color: #ff6b81;
+}
+
+/* Footer */
+footer {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px;
+    font-size: 1.1rem;
+}
